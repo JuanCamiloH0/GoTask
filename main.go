@@ -21,7 +21,7 @@ func main() {
 
 	var titulo string = "Aprender Go"
 	descripcion := "Estudiar variables y tipos de datos en Go"
-	var prioridad int = 2
+	var prioridad int = 3
 	completada := false
 	const estadoInicial string = "Pendiente"
 
@@ -40,4 +40,13 @@ func main() {
 	fmt.Println("Multiplicacion:", numero1*numero2)
 	fmt.Println("Division:", numero1/numero2)
 	fmt.Println("Resto:", numero1%numero2)
+
+	fmt.Println("-----OPERACIONES DE COMPRACION----")
+
+	fmt.Println("¿Prioridad igual a 3?", prioridad == 3)
+	fmt.Println("¿Prioridad diferente de 2?", prioridad != 2)
+	fmt.Println("¿Prioridad mayor que 1?", prioridad > 1)
+	fmt.Println("¿Prioridad menor que 5?", prioridad < 5)
+	fmt.Println("¿Prioridad mayor o igual a 3?", prioridad >= 3)
+	fmt.Println("¿Prioridad menor o igual a 2?", prioridad <= 2)
 }
