@@ -22,11 +22,13 @@ func main() {
 	var titulo string = "Aprender Go"
 	descripcion := "Estudiar variables y tipos de datos en Go"
 	var prioridad int = 2
-	completado := false
+	completada := false
+	const estadoInicial string = "Pendiente"
 
 	fmt.Println("---- INFORMACION DE LA TAREA ----")
+	fmt.Println("Estado inicial:", estadoInicial)
 	fmt.Println("Titulo:", titulo)
 	fmt.Println("Descripcion:", descripcion)
 	fmt.Println("Prioridad:", prioridad)
-	fmt.Println("Completado:", completado)
+	fmt.Println("Completada:", completada)
 }
