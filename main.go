@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-var project string = "GoTask"
-var language string = "Go"
-var version string = "1.0"
+const Project = "GoTask"
+const Language = "Go"
+const Version = "1.0"
 
 func main() {
 	fmt.Println("================================")
@@ -13,9 +13,20 @@ func main() {
 	fmt.Println("")
 	fmt.Println("Administrador de tareas")
 	fmt.Println("")
-	fmt.Println("Proyecto:", project)
-	fmt.Println("Lenguaje:", language)
-	fmt.Println("Version:", version)
+	fmt.Println("Proyecto:", Project)
+	fmt.Println("Lenguaje:", Language)
+	fmt.Println("Version:", Version)
 	fmt.Println("")
 	fmt.Println("¡Bienvenido!")
+
+	var titulo string = "Aprender Go"
+	descripcion := "Estudiar variables y tipos de datos en Go"
+	var prioridad int = 2
+	completado := false
+
+	fmt.Println("---- INFORMACION DE LA TAREA ----")
+	fmt.Println("Titulo:", titulo)
+	fmt.Println("Descripcion:", descripcion)
+	fmt.Println("Prioridad:", prioridad)
+	fmt.Println("Completado:", completado)
 }
