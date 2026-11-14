@@ -31,4 +31,13 @@ func main() {
 	fmt.Println("Descripcion:", descripcion)
 	fmt.Println("Prioridad:", prioridad)
 	fmt.Println("Completada:", completada)
+
+	numero1 := 10
+	numero2 := 3
+	fmt.Println("---- OPERACIONES MATEMATICAS ----")
+	fmt.Println("Suma:", numero1+numero2)
+	fmt.Println("Resta:", numero1-numero2)
+	fmt.Println("Multiplicacion:", numero1*numero2)
+	fmt.Println("Division:", numero1/numero2)
+	fmt.Println("Resto:", numero1%numero2)
 }
